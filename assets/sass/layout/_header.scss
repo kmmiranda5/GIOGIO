@@ -1,0 +1,43 @@
+.hero {
+  &__container {
+    height: 100px; // mobile
+    @include media-breakpoint-up(md) {
+      height: 250px; // desktop
+    }
+    background-image: url(../img/image-banner.png);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+  }
+  &__social {
+    display: flex;
+    margin: 1rem 0;
+    justify-content: center;
+  }
+  &__img {
+    width: 75px;
+    height: 75px;
+    @include media-breakpoint-up(md) {
+      width: 50px;
+      height: 50px;
+    }
+  }
+  &__social-wrapper {
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  
+  &__buttons {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    @include media-breakpoint-up(md) {
+      display: flex;
+    }
+  }
+
+}

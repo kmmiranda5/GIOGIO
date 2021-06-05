@@ -1,0 +1,16 @@
+//You can change the name in this file
+@import './abstracts/variables';
+
+@import './vendor/bootstrap-5.0.1/scss/bootstrap.scss';
+
+@import './base/base';
+@import './base/reset';
+@import './base/typography';
+
+@import './layout/header';
+@import './layout/main';
+@import './layout/navbar';
+@import './layout/footer';
+
+@import './components/buttons';
+@import './components/cards';

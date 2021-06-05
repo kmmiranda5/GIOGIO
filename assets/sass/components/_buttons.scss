@@ -1,0 +1,11 @@
+.c-button {
+  color: $color-white;
+  padding: 0.5rem;
+  border: none;
+  &--primary {
+    background-color: $color-blue;
+  }
+  &--secondary {
+    background-color: $color-orange;
+  }
+}
